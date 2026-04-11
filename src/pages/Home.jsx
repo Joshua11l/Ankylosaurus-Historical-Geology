@@ -33,9 +33,9 @@ function Home() {
             The Ankylosaurus was one of the most heavily armored dinosaurs to ever
             live. It existed during the Late Cretaceous period and developed
             defensive adaptations that made it one of the best-protected large
-            herbivores in its ecosystem. This site examines its geologic setting,
-            fossil history, anatomy, and extinction context through organized
-            educational references and visual examples.
+            herbivores in its ecosystem. Its geologic setting, fossil history,
+            anatomy, and extinction help show why it remains one of the most
+            recognizable dinosaurs from the closing chapter of the Cretaceous.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -88,13 +88,13 @@ function Home() {
           </p>
           <div className="mt-6 grid gap-6 lg:grid-cols-[1fr_0.9fr]">
             <div>
-              <h2 className="font-serif text-3xl text-forest">Study Focus</h2>
+              <h2 className="font-serif text-3xl text-forest">About Ankylosaurus</h2>
               <p className="mt-4 text-base leading-8 text-stoneText/90">
-                The site is organized around the main questions a historical
-                geology project should answer: when Ankylosaurus lived, how it was
-                adapted to its environment, where its fossils were found, how its
-                defenses evolved, and how the end-Cretaceous extinction reshaped
-                life on Earth.
+                Ankylosaurus was a large, low-bodied herbivore that lived near the
+                end of the Cretaceous Period in western North America. It is best
+                known for its heavy body armor, broad skull, and powerful tail club,
+                features that helped protect it in ecosystems shared with major
+                predators such as Tyrannosaurus.
               </p>
             </div>
             <ul className="grid gap-3 text-sm leading-7 text-stoneText/85">

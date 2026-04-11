@@ -22,7 +22,7 @@ function Footer() {
             </p>
             <ul className="mt-4 space-y-3 pl-0 text-sm leading-7 text-stoneText/85">
               <li className="list-none">Student Name: Joshua Lopez</li>
-              <li className="list-none">Course: Historical Geology</li>
+              <li className="list-none">GEOL201L</li>
             </ul>
           </div>
         </div>

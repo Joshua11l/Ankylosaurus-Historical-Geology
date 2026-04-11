@@ -14,14 +14,14 @@ function Sources() {
     <Section
       eyebrow="Sources and References"
       title="Image and Content Sources"
-      intro="These are the links used for the visual set currently shown across the site, including the Cretaceous map, anatomy comparison image, fossil armor specimen, and Ankylosaurus reconstructions."
+      intro="These sources support the maps, specimen images, and Ankylosaurus reconstructions used throughout the website."
       imageSrc="/images/cretaceous-britannica.webp"
-      imageAlt="Late Cretaceous world map used in the site"
+      imageAlt="Late Cretaceous world map used on the website"
       imageLabel="Cretaceous Map Reference"
       imageFit="contain"
       source={sources.britannicaCretaceous}
       noteTitle="Source Standard"
-      noteBody="Each listed source links back to the page you provided for the current visual set."
+      noteBody="Each entry links directly to the page used for the corresponding image or reference."
       references={[sources.britannicaCretaceous, sources.natgeoKidsAnkylosaurus, sources.minimuseumArmor]}
     >
       <div className="grid gap-6 lg:grid-cols-2">
@@ -66,10 +66,7 @@ function Sources() {
         </ul>
       </div>
 
-      <p>
-        If you want, these entries can still be reformatted into MLA or APA style
-        on the final sources page.
-      </p>
+      <p>These entries can also be reformatted into MLA or APA style if needed.</p>
     </Section>
   )
 }

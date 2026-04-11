@@ -7,13 +7,13 @@ function Discovery() {
       eyebrow="Fossil Discovery"
       title="North American Fossil Record"
       intro="Ankylosaurus fossils have been discovered in Upper Cretaceous rocks of North America, especially in regions that now form parts of Alberta, Canada, and Montana, USA."
-      imageSrc="/images/minimuseum-armor.jpg"
-      imageAlt="Close-up photograph of Ankylosaurus dermal armor specimen"
-      imageLabel="Ankylosaurus Dermal Armor"
-      source={sources.minimuseumArmor}
+      imageSrc="/images/ankylosaurus.jpg"
+      imageAlt="Ankylosaurus image used in the discovery section"
+      imageLabel="Ankylosaurus Reconstruction"
+      source={sources.natgeoKidsAnkylosaurus}
       noteTitle="Collection Record"
       noteBody="Known material is incomplete, so paleontologists rely on fragmentary skeletons, armor elements, and comparison with related ankylosaurs."
-      references={[sources.minimuseumArmor, sources.dinopediaAnkylosaurus, sources.britannicaCretaceous]}
+      references={[sources.natgeoKidsAnkylosaurus, sources.dinopediaAnkylosaurus, sources.britannicaCretaceous]}
     >
       <div className="grid gap-4 md:grid-cols-2">
         <div className="rounded-2xl bg-background p-5">

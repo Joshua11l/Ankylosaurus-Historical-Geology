@@ -46,10 +46,10 @@ function Sources() {
         <div className="rounded-2xl bg-background p-5">
           <h3 className="font-serif text-2xl text-forest">Image Credits</h3>
           <ul className="mt-4 space-y-3 text-base leading-8">
-            <li>Home image: National Geographic Kids Ankylosaurus page.</li>
+            <li>Home image: Mini Museum Ankylosaurus dermal armor page.</li>
             <li>Time period map: Encyclopaedia Britannica Cretaceous Period page.</li>
             <li>Characteristics image: Dinopedia Ankylosaurus page.</li>
-            <li>Discovery image: Mini Museum Ankylosaurus dermal armor page.</li>
+            <li>Discovery image: National Geographic Kids Ankylosaurus page.</li>
             <li>Evolution and extinction images: DinosaurPictures.org Ankylosaurus gallery.</li>
           </ul>
         </div>
@@ -58,10 +58,10 @@ function Sources() {
       <div className="rounded-2xl border border-forest/10 bg-forest/5 p-5">
         <h3 className="font-serif text-2xl text-forest">How Sources Are Used</h3>
         <ul className="mt-4 space-y-3 text-base leading-8">
-          <li>Home: Ankylosaurus reconstruction from National Geographic Kids.</li>
+          <li>Home: image credited to Mini Museum.</li>
           <li>Geological Time Period: Late Cretaceous map from Encyclopaedia Britannica.</li>
           <li>Characteristics: size comparison image from the Ankylosaurus Dinopedia page.</li>
-          <li>Discovery: dermal armor specimen image from Mini Museum.</li>
+          <li>Discovery: Ankylosaurus image from National Geographic Kids.</li>
           <li>Evolution and Extinction: Ankylosaurus reconstruction from DinosaurPictures.org.</li>
         </ul>
       </div>

@@ -69,12 +69,12 @@ function Home() {
             <p className="mt-4 text-sm text-white/70">
               Source:{' '}
               <a
-                href={sources.natgeoKidsAnkylosaurus.url}
+                href={sources.minimuseumArmor.url}
                 target="_blank"
                 rel="noreferrer"
                 className="underline decoration-white/30 underline-offset-4"
               >
-                {sources.natgeoKidsAnkylosaurus.organization}
+                {sources.minimuseumArmor.organization}
               </a>
             </p>
           </div>

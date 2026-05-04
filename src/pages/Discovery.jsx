@@ -5,56 +5,59 @@ function Discovery() {
   return (
     <Section
       eyebrow="Fossil Discovery"
-      title="North American Fossil Record"
-      intro="Ankylosaurus fossils have been discovered in Upper Cretaceous rocks of North America, especially in regions that now form parts of Alberta, Canada, and Montana, USA."
+      title="How We Know About Ankylosaurus"
+      intro="Ankylosaurus is known from only a few fossils found in Wyoming, Montana, and South Dakota. The fossils are incomplete, with many bones missing. This makes each fossil discovery very important for science."
       imageSrc="/images/ankylosaurus.jpg"
-      imageAlt="Ankylosaurus image used in the discovery section"
+      imageAlt="Ankylosaurus full-body reconstruction based on known fossil material"
       imageLabel="Ankylosaurus Reconstruction"
       source={sources.natgeoKidsAnkylosaurus}
-      noteTitle="Collection Record"
-      noteBody="Known material is incomplete, so paleontologists rely on fragmentary skeletons, armor elements, and comparison with related ankylosaurs."
-      references={[sources.natgeoKidsAnkylosaurus, sources.dinopediaAnkylosaurus, sources.britannicaCretaceous]}
+      noteTitle="What We Have Found"
+      noteBody="Only three partial skulls and some body bones are known. Scientists use armor plates and fossils of related dinosaurs to understand what the whole animal looked like."
+      references={[sources.natgeoKidsAnkylosaurus, sources.dinopediaAnkylosaurus, sources.britannicaAnkylosaurus]}
     >
       <div className="grid gap-4 md:grid-cols-2">
         <div className="rounded-2xl bg-background p-5">
-          <h3 className="font-serif text-2xl text-forest">Alberta, Canada</h3>
+          <h3 className="font-serif text-2xl text-forest">The First Discovery</h3>
           <p className="mt-3">
-            Fossil material from Alberta has contributed to the broader study of
-            ankylosaur diversity in western Canada. These discoveries help place
-            Ankylosaurus within a larger regional fossil record.
+            The first Ankylosaurus fossil was found by paleontologist Barnum Brown in 1906 in
+            Wyoming. It included a partial skull and some body bones. Brown named and described
+            Ankylosaurus in 1908. This original fossil is still used as the example of what
+            Ankylosaurus looked like.
           </p>
         </div>
         <div className="rounded-2xl bg-background p-5">
-          <h3 className="font-serif text-2xl text-forest">Montana, USA</h3>
+          <h3 className="font-serif text-2xl text-forest">More Fossils Found</h3>
           <p className="mt-3">
-            Montana preserves some of the most important latest Cretaceous dinosaur
-            formations in North America. Material attributed to Ankylosaurus from
-            this area links the animal to the Hell Creek ecosystem.
+            More Ankylosaurus fossils were found in Montana and South Dakota in the Hell Creek
+            Formation. One was found around 1910, another in 1947. The Hell Creek Formation
+            is one of the most important places for Late Cretaceous fossils in North America.
           </p>
         </div>
       </div>
 
       <p>
-        The formal naming of <em>Ankylosaurus</em> in the early twentieth century
-        relied on incomplete but distinctive fossil remains. As with many armored
-        dinosaurs, isolated osteoderms and fragmentary skeletons make interpretation
-        difficult, so the discovery story is closely tied to revision and
-        comparison with related genera.
+        Barnum Brown officially named Ankylosaurus in 1908. The name comes from Greek words meaning
+        "fused lizard," which refers to all the fused bones in the skull and tail. The species name,
+        magniventris, is Latin for "big belly," describing its wide barrel-shaped body.
       </p>
 
       <div className="rounded-2xl border border-sand/60 bg-sand/25 p-5">
-        <h3 className="font-serif text-2xl text-forest">Discovery Timeline</h3>
+        <h3 className="font-serif text-2xl text-forest">Timeline of Discoveries</h3>
         <ul className="mt-3 space-y-3 text-base leading-8">
-          <li>1900s: Initial fossil material described and compared with other armored dinosaurs.</li>
-          <li>Mid-1900s: Additional specimens and armor fragments expanded anatomical interpretation.</li>
-          <li>Modern studies: Ongoing reanalysis refines taxonomy, posture, and ecological role.</li>
+          <li><strong>1906:</strong> Barnum Brown finds the first Ankylosaurus fossil in Wyoming.</li>
+          <li><strong>1908:</strong> Brown names and describes Ankylosaurus.</li>
+          <li><strong>1910:</strong> Another skull is found, giving scientists more information.</li>
+          <li><strong>1947:</strong> A third partial skull is collected.</li>
+          <li><strong>Today:</strong> Scientists continue to study Ankylosaurus fossils, learning about how it moved, used its tail, and lived.</li>
         </ul>
       </div>
 
       <p>
-        Alberta material, including casts and collection records at the University
-        of Alberta, shows how widely ankylosaur research has been distributed across
-        North American institutions.
+        The fact that Ankylosaurus fossils are so rare tells scientists something important. Either
+        there were not many Ankylosaurus animals in these ecosystems, or the conditions did not preserve
+        their bones well. Rivers and floodplains do not always preserve bones equally. Understanding
+        why some fossils are rare helps scientists figure out what animals actually lived together
+        in the Late Cretaceous.
       </p>
     </Section>
   )
